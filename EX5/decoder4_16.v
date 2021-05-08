@@ -22,6 +22,8 @@ begin
             out <= 16'b0000000001000000;
         else if(select == 4'b0111)
             out <= 16'b0000000010000000;
+             else if(select == 4'b1110)
+            out <= 16'b0100000000000000;
         else if(select == 4'b1000)
             out <= 16'b0000000100000000;
         else if(select == 4'b1001)
